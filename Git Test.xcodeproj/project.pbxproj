@@ -21,6 +21,7 @@
 		CBF34FF819219DE500E65736 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF34FDA19219DE500E65736 /* UIKit.framework */; };
 		CBF3500019219DE500E65736 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBF34FFE19219DE500E65736 /* InfoPlist.strings */; };
 		CBF3500219219DE500E65736 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF3500119219DE500E65736 /* Git_TestTests.m */; };
+		CBF3500D1921A45400E65736 /* JASTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF3500C1921A45400E65736 /* JASTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CBF34FFD19219DE500E65736 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		CBF34FFF19219DE500E65736 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBF3500119219DE500E65736 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CBF3500B1921A45400E65736 /* JASTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASTest.h; sourceTree = "<group>"; };
+		CBF3500C1921A45400E65736 /* JASTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		CBF34FCA19219DE500E65736 = {
 			isa = PBXGroup;
 			children = (
+				CBF3500B1921A45400E65736 /* JASTest.h */,
+				CBF3500C1921A45400E65736 /* JASTest.m */,
 				CBF34FDC19219DE500E65736 /* Git Test */,
 				CBF34FFB19219DE500E65736 /* Git TestTests */,
 				CBF34FD519219DE500E65736 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				CBF34FED19219DE500E65736 /* JASViewController.m in Sources */,
 				CBF34FE319219DE500E65736 /* main.m in Sources */,
+				CBF3500D1921A45400E65736 /* JASTest.m in Sources */,
 				CBF34FE719219DE500E65736 /* JASAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
